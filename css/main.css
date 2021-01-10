@@ -1,0 +1,43 @@
+header {
+    background: url("./../img/bg-pattern.png"), linear-gradient(to right, rgb(220,36,48), rgb(123,67,151) ); 
+}
+
+.btn-start {
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 22px;
+    line-height: 44px;
+    text-align: center;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.btn-start:hover {
+    background-color: #fdcc52;
+    border: 1px solid #fdcb4f;
+    cursor: pointer;
+}
+
+.section__background--yellow {
+    background-color: #fdcb4f;
+}
+
+hr {
+    width: 100px;
+}
+
+.section__background--image {
+    background-image: url("./../img/bg-cta.jpg");
+    background-color: rgba(0,0,0,.5);
+    background-position: center;
+}
+
+.heart {
+    color: #f00;
+    font-size: 150%;
+}
+
+.section__background--gray {
+    background-color: #222;
+    color: #656565;
+}
